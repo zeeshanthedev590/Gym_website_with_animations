@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="fullpage.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>iFitness - Get Fit Today</title>
+  </head>
+  <body>
+    <div id="fullpage">
+      <section class="landing section s1">
+        <div class="intro">
+          <div class="wave"></div>
+          <p>By Zeeshan Khalid.</p>
+        </div>
+        <div class="distortion"></div>
+      </section>
+      <section id="about" class="section s2">
+        <h2>About Us</h2>
+        <div class="text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Dignissimos autem numquam voluptates? Aspernatur voluptates
+            provident, in quaerat cum rem maxime quas voluptate non et? Vero
+            eius reprehenderit error dolorum deserunt, quisquam sequi nam
+            delectus cum doloribus aspernatur, molestiae modi et esse nihil non
+            asperiores eligendi aliquid inventore facilis, blanditiis
+            repellendus culpa ab! Quibusdam, laudantium sit. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Consequatur eligendi qui
+            adipisci, quasi doloremque, sunt at sequi vel iusto, laboriosam eos
+            eum consectetur repudiandae nisi mollitia illum? Quas cumque,
+            consectetur, libero quae distinctio facilis accusamus optio
+            voluptate iste obcaecati aliquam nostrum earum asperiores illum hic
+            eos id ratione vero tempore iusto cum dolore. Quasi totam ipsa neque
+            dolores laboriosam repellendus, culpa doloremque. Et quisquam quasi
+            est?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+            laboriosam quasi ipsa iste consequatur rerum corrupti magnam
+            provident! Corporis itaque atque, quod illum delectus repellat est,
+            deserunt pariatur quasi doloribus voluptatibus adipisci. Possimus
+            quidem omnis ea culpa aliquam, ratione molestias repellendus
+            dolores? In, voluptatum?
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente,
+            ipsum! At repellendus optio aliquid quae nobis repudiandae ipsum
+            esse alias vero veritatis enim fugiat corrupti sint, maiores in
+            autem unde cum similique doloribus blanditiis. Laboriosam molestias
+            quo praesentium fuga similique magnam excepturi in natus minima
+            beatae. Dignissimos molestiae adipisci eveniet? Accusamus incidunt
+            quam, laborum ut quod tenetur amet, distinctio quo odio expedita
+            aliquam molestias totam sapiente?
+          </p>
+        </div>
+      </section>
+      <section id="services" class="section s3">
+        <h2>Our Services</h2>
+        <div class="card-container">
+          <div class="cards">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h1>Basic Plan</h1>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Price:$20</h1>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h1>Beginners Plan</h1>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Price:$50</h1>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h1>Pro Plan</h1>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Price:$100</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section s4">
+        <h2>Contact Us</h2>
+        <div class="contact">
+          <form action="#fullpage" method="post" autocomplete="off">
+          <div class="container mt-0">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control mb-2"
+                  id="exampleFormControlInput1"
+                  placeholder="Enter Your Name"
+                  name="name"
+                  id="name"
+                  autocomplete="off"
+                />
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Enter Your Email"
+                  name="email"
+                  id="email"
+                  autocomplete="off"
+                />
+                <label for="exampleDataList" class="form-label"
+                  >Enter Your Plan</label
+                >
+                <input
+                  class="form-control mt-2"
+                  list="datalistOptions"
+                  id="exampleDataList"
+                  placeholder="Enter Your Plan"
+                />
+                <datalist id="datalistOptions">
+                  <option value="Pro Plan"></option>
+                  <option value="Basic Plan"></option>
+                  <option value="Beginners Plan"></option>
+                </datalist>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >How May I Help You</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  style="margin-top: 0px; margin-bottom: 0px; height: 210px"
+                  name="desc"
+                  id="desc"
+                ></textarea>
+                <button type="submit" class="btn btn-primary mb-5 mt-2 btn-lg" style="
+                     position: absolute;
+                     top: 47px;
+                     margin: 710px;
+                     /* bottom: 506px; */
+                 ">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+      integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/107/three.min.js"
+      integrity="sha256-321vzZNUH74ANBmvgqtE7e0gtGUjvWYaGMqu63RMcmg="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="hover.js"></script>
+    <script src="fullpage.min.js"></script>
+    <script src="app.js"></script>
+    <script src="app2.js"></script>
+    <script src="wave.js"></script>
+  </body>
+</html>

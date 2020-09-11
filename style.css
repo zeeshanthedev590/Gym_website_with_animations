@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.distortion {
+  height: 500px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  width: 920px;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  margin-left: 754px;
+  margin-bottom: 222px;
+}
+
+.intro {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-left: 30px;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100vh;
+}
+
+.intro p {
+  position: fixed;
+  font-size: 25px;
+  margin-top: 318px;
+  margin-left: 38px;
+}
+
+.intro .wave {
+  font-weight: 500;
+  position: absolute;
+  font-size: 50px;
+  margin-top: 259px;
+  margin-bottom: 800px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.section {
+  background: -webkit-gradient(linear, right bottom, left top, from(white), to(#bdc1c7));
+  background: linear-gradient(to left top, white, #bdc1c7);
+}
+
+.s2 h2 {
+  margin-left: 578px;
+  margin-top: 24px;
+  margin-bottom: 111px;
+  font-size: 60px;
+}
+
+.s2 .text {
+  margin: 113px;
+}
+
+.s3 h2 {
+  margin-left: 530px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 60px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card {
+  margin-right: 40px;
+}
+
+.flip-card:hover .flip-card-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.card-container {
+  margin-top: 30px;
+  margin-left: 233px;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #2980b9;
+  color: white;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.s4 h2 {
+  margin-left: 530px;
+  margin-top: 18px;
+  margin-bottom: 0px;
+  font-size: 60px;
+}
+
+@-webkit-keyframes wave {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    color: black;
+  }
+  to {
+    -webkit-transform: translateY(-90px);
+            transform: translateY(-90px);
+  }
+}
+
+@keyframes wave {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    color: black;
+  }
+  to {
+    -webkit-transform: translateY(-90px);
+            transform: translateY(-90px);
+  }
+}
+
+.wave span {
+  display: inline-block;
+  font-size: 70px;
+  margin-bottom: 329px;
+  -webkit-animation-name: wave;
+          animation-name: wave;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.wave :nth-child(0) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  color: #c864ff;
+}
+
+.wave :nth-child(1) {
+  -webkit-animation-delay: 0.02s;
+          animation-delay: 0.02s;
+  color: #f564ff;
+}
+
+.wave :nth-child(2) {
+  -webkit-animation-delay: 0.04s;
+          animation-delay: 0.04s;
+  color: #ff64ff;
+}
+
+.wave :nth-child(3) {
+  -webkit-animation-delay: 0.06s;
+          animation-delay: 0.06s;
+  color: #ff64ff;
+}
+
+.wave :nth-child(4) {
+  -webkit-animation-delay: 0.08s;
+          animation-delay: 0.08s;
+  color: #e164ff;
+}
+
+.wave :nth-child(5) {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  color: #ff64ff;
+}
+
+.wave :nth-child(6) {
+  -webkit-animation-delay: 0.12s;
+          animation-delay: 0.12s;
+  color: #ff64ff;
+}
+
+.wave :nth-child(7) {
+  -webkit-animation-delay: 0.14s;
+          animation-delay: 0.14s;
+  color: #cd64ff;
+}
+
+.wave :nth-child(8) {
+  -webkit-animation-delay: 0.16s;
+          animation-delay: 0.16s;
+  color: #fa64ff;
+}
+
+.wave :nth-child(9) {
+  -webkit-animation-delay: 0.18s;
+          animation-delay: 0.18s;
+  color: #ff64ff;
+}
+
+.wave :nth-child(10) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  color: #ff64ff;
+}
+
+.wave :nth-child(11) {
+  -webkit-animation-delay: 0.22s;
+          animation-delay: 0.22s;
+  color: #e664ff;
+}
+
+.wave :nth-child(12) {
+  -webkit-animation-delay: 0.24s;
+          animation-delay: 0.24s;
+  color: #ff64ff;
+}
+
+.wave :nth-child(13) {
+  -webkit-animation-delay: 0.26s;
+          animation-delay: 0.26s;
+  color: #ff64ff;
+}
+
+.wave :nth-child(14) {
+  -webkit-animation-delay: 0.28s;
+          animation-delay: 0.28s;
+  color: #d264ff;
+}
+/*# sourceMappingURL=style.css.map */
